@@ -1,7 +1,7 @@
 # Visit Kinshasa - Your Guide to Kinshasa's Vibrant District
 
 Visit Kinshasa is a simple and responsive website that serves as a guide for exploring Kinshasa's vibrant district.
-This is the step 3 of Intro to Digital Course by CYF [ Code Your Future ] . I would be grateful if someone could review my code.
+This is the step 4 of Intro to Digital Course by CYF [ Code Your Future ] . I would be grateful if someone could review my code.
 It features information about local activities, including shows, concerts, parks, sports, and a personal tour guide.
 
 Link to my project on GitHub : https://github.com/apachitech/dav-hometown
