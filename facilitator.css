@@ -1,0 +1,73 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    background-shadow: 3px 3px 6px black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Unordered list styling */
+ul#list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+ul#list li {
+    background-color: #d3e0ea;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Input field styling */
+input#name-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #d3e0ea;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #3f72af;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1f487e;
+}
+
+/* Selected name display styling */
+p#selected-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #112d4e;
+    margin-top: 20px;
+}

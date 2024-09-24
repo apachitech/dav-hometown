@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="facilitator.css">
     <title>Visit Kinshasa - Your Guide to Kinshasa's Vibrant District</title>
 </head>
 <body>
@@ -12,6 +13,23 @@
             <h1>Visit Kinshasa</h1>
             <p class="subtitle">Enjoy culture and sports in this vibrant district close to the center of Kinshasa.</p>
         </div>
+    </div>
+
+    <!-- Added Dynamic feature about Selection of Random facilitator -->
+    <div class="container">
+
+        <h3>RANDOM FACILITATOR SELECTOR</h3>
+        <ul id="list"></ul>
+
+    <!-- Input field and button to add names -->
+    <input id="name-input" type="text" placeholder="Enter name">
+    <button id="add-name">Add Name</button>
+
+    <!-- Button to select a random facilitator -->
+    <button id="select-facilitator">Select Facilitator</button>
+
+    <!-- Display the selected name -->
+    <p id="selected-name">Selected name will appear here.</p>
     </div>
 
     <div class="activities">
@@ -42,5 +60,7 @@
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
